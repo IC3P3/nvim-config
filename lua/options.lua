@@ -59,8 +59,30 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+-- Add settings when using neovide
 if vim.g.neovide then
+  -- Installation of the Nerd Font "Lilex Nerd Font needed to run in neovide"
   vim.o.guifont = 'Lilex Nerd Font Mono:h16'
+
+  -- Adds padding around neovide
+  vim.g.neovide_padding_top = 20
+  vim.g.neovide_padding_bottom = 5
+  vim.g.neovide_padding_right = 5
+  vim.g.neovide_padding_left = 35
+
+  -- Shortened animation length of neovide cursor
+  vim.g.neovide_scroll_animation_length = 0.1
+  vim.g.neovide_scroll_animation_far_lines = 0.5
+
+  -- Remove cursor while typing
+  vim.g.neovide_hide_mouse_when_typing = true
+
+  -- Increase refresh rate
+  vim.g.neovide_refresh_rate = 120
+  vim.g.neovide_refresh_rate_idle = 15
+
+  -- Lower cursor drag
+  vim.g.neovide_cursor_trail_size = 0.3
 end
 
 -- vim: ts=2 sts=2 sw=2 et
