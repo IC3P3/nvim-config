@@ -59,4 +59,8 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+if vim.g.neovide then
+  vim.o.guifont = 'Lilex Nerd Font Mono:h16'
+end
+
 -- vim: ts=2 sts=2 sw=2 et
