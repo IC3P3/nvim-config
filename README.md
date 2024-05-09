@@ -2,7 +2,11 @@
 
 ## Introduction
 
-*This is a fork of [nvim-lua/kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) that moves from a single file to a multi file configuration.*
+<a href="https://dotfyle.com/IC3P3/nvim-config"><img src="https://dotfyle.com/IC3P3/nvim-config/badges/plugins?style=flat" /></a>
+<a href="https://dotfyle.com/IC3P3/nvim-config"><img src="https://dotfyle.com/IC3P3/nvim-config/badges/leaderkey?style=flat" /></a>
+<a href="https://dotfyle.com/IC3P3/nvim-config"><img src="https://dotfyle.com/IC3P3/nvim-config/badges/plugin-manager?style=flat" /></a>
+
+*This is a fork of [dam9000/kickstart-modular.nvim](https://github.com/dam9000/kickstart-modular.nvim) which was modified with my personal preferences.*
 
 A starting point for Neovim that is:
 
