@@ -15,6 +15,9 @@ return {
         'vimdoc',
         'json',
         'jsonc',
+        'jsdoc',
+        'javascript',
+        'svelte',
       },
       -- Autoinstall languages that are not installed
       auto_install = true,
