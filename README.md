@@ -1,16 +1,12 @@
-# kickstart-modular.nvim
+# nvim-config
 
 ## Introduction
 
-*This is a fork of [nvim-lua/kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) that moves from a single file to a multi file configuration.*
+*This is a fork of [dam9000/kickstart-modular.nvim](https://github.com/dam9000/kickstart-modular.nvim) which is used as a baseline for my personal configuration.*
 
-A starting point for Neovim that is:
+The repository [dam9000/kickstart-modular.nvim](https://github.com/dam9000/kickstart-modular.nvim) is a fork of [nvim-lua](https://github.com/nvim-lua/kickstart.nvim). These projects aim to be a small and well documented starting point for everything to base their configuration on.
 
-* Small
-* Modular
-* Completely Documented
-
-**NOT** a Neovim distribution, but instead a starting point for your configuration.
+Therefore these are not Neovim distributions, but instead a simple starting point for a configuration.
 
 ## Installation
 
@@ -19,7 +15,8 @@ A starting point for Neovim that is:
 Kickstart.nvim targets *only* the latest
 ['stable'](https://github.com/neovim/neovim/releases/tag/stable) and latest
 ['nightly'](https://github.com/neovim/neovim/releases/tag/nightly) of Neovim.
-If you are experiencing issues, please make sure you have the latest versions.
+However I only use my configuration on the latest stable version.
+If you are experiencing issues, please make sure you have the latest stable version.
 
 ### Install External Dependencies
 
