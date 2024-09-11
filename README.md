@@ -88,10 +88,11 @@ the current plugin status. Hit `q` to close the window.
 
 ### FAQ
 
-- What should I do if I already have a pre-existing Neovim configuration?
+- What should I do if I already have a pre-existing neovim configuration?
   - You should back it up and then delete all associated files.
-  - This includes your existing init.lua and the Neovim files in `~/.local`
-    which can be deleted with `rm -rf ~/.local/share/nvim/`
+  - This includes your existing init.lua and the neovim files in `~/.local`
+    > > > > > > > 9a8b499 (Updated Readme to fit fork)
+        which can be deleted with `rm -rf ~/.local/share/nvim/`
 - Can I keep my multiple configuration in parallel?
   - Yes! You can use [NVIM_APPNAME](https://neovim.io/doc/user/starting.html#%24NVIM_APPNAME)`=nvim-NAME`
     to maintain multiple configurations. For example, you can install the kickstart
@@ -113,8 +114,8 @@ the current plugin status. Hit `q` to close the window.
     same functionality is available here:
     - [kickstart-modular.nvim](https://github.com/dam9000/kickstart-modular.nvim)
   - _NOTE: This is the fork that splits the configuration into smaller parts._
-    The original repo with the single `init.lua` file is available here:
-    - [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
+    The original repo with the single `init.lua` file is available here: - [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
+  - # Discussions on this topic can be found here: - [Restructure the configuration](https://github.com/nvim-lua/kickstart.nvim/issues/218) - [Reorganize init.lua into a multi-file setup](https://github.com/nvim-lua/kickstart.nvim/pull/473)
   - Discussions on this topic can be found here: - [Restructure the configuration](https://github.com/nvim-lua/kickstart.nvim/issues/218) - [Reorganize init.lua into a multi-file setup](https://github.com/nvim-lua/kickstart.nvim/pull/473)
 
 ### Install Recipes
