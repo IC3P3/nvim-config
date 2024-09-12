@@ -64,4 +64,7 @@ vim.opt.sidescrolloff = 15
 -- Remove line wrapping
 vim.opt.wrap = false
 
+-- Set language used by Neovim
+vim.cmd 'language en_US.UTF8'
+
 -- vim: ts=2 sts=2 sw=2 et
