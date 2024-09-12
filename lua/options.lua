@@ -74,4 +74,9 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
+-- Neovide specific settings
+if vim.g.neovide then
+  vim.o.guifont = 'Lilex Nerd Font,FiraCode Nerd Font,JetBrainsMono Nerd Font:h16'
+end
+
 -- vim: ts=2 sts=2 sw=2 et
