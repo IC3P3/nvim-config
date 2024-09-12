@@ -81,6 +81,8 @@ if vim.g.neovide then
   vim.g.neovide_hide_mouse_when_typing = true
   vim.g.neovide_refresh_rate = 120
   vim.g.neovide_detach_on_quit = 'promt'
+  vim.g.neovide_cursor_animation_length = 0.07
+  vim.g.neovide_cursor_trail_size = 0.3
 end
 
 -- vim: ts=2 sts=2 sw=2 et
