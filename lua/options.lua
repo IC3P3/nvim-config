@@ -88,4 +88,10 @@ end
 -- Set language used by Neovim
 vim.cmd 'language en_US.UTF8'
 
+-- Set behaviour of tabs
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+
 -- vim: ts=2 sts=2 sw=2 et
