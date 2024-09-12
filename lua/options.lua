@@ -85,4 +85,7 @@ if vim.g.neovide then
   vim.g.neovide_cursor_trail_size = 0.3
 end
 
+-- Set language used by Neovim
+vim.cmd 'language en_US.UTF8'
+
 -- vim: ts=2 sts=2 sw=2 et
