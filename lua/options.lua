@@ -76,6 +76,8 @@ vim.opt.expandtab = true
 -- Neovide specific settings
 if vim.g.neovide then
   vim.o.guifont = 'Lilex Nerd Font,FiraCode Nerd Font,JetBrainsMono Nerd Font:h16'
+  vim.g.neovide_scroll_animation_length = 0.15
+  vim.g.neovide_scroll_animation_far_lines = 0.5
 end
 
 -- vim: ts=2 sts=2 sw=2 et
