@@ -1,5 +1,9 @@
 # kickstart-modular.nvim
 
+<a href="https://dotfyle.com/IC3P3/nvim-config"><img src="https://dotfyle.com/IC3P3/nvim-config/badges/plugins?style=for-the-badge" /></a>
+<a href="https://dotfyle.com/IC3P3/nvim-config"><img src="https://dotfyle.com/IC3P3/nvim-config/badges/leaderkey?style=for-the-badge" /></a>
+<a href="https://dotfyle.com/IC3P3/nvim-config"><img src="https://dotfyle.com/IC3P3/nvim-config/badges/plugin-manager?style=for-the-badge" /></a>
+
 ## Introduction
 
 _This is a fork of [dam9000/kickstart-modular.nvim](https://github.com/dam9000/kickstart-modular.nvim)
