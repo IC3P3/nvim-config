@@ -68,9 +68,6 @@ vim.opt.wrap = false
 -- Set language used by Neovim
 vim.cmd 'language en_US.UTF8'
 
--- Set colorscheme to rose pine
-vim.cmd 'colorscheme rose-pine-moon'
-
 -- Set behaviour of tabs
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
