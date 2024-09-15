@@ -154,9 +154,6 @@ return {
       local servers = {
         ts_ls = {},
         lua_ls = {
-          -- cmd = { ... },
-          -- filetypes = { ... },
-          -- capabilities = {},
           settings = {
             Lua = {
               completion = {
