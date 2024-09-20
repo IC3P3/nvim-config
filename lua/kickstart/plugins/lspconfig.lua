@@ -186,7 +186,7 @@ return {
         'nixpkgs-fmt',
         'markdownlint',
       })
-      require('m<script lang="ts">ason-tool-installer').setup { ensure_installed = ensure_installed }
+      require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
       require('mason-lspconfig').setup {
         handlers = {
