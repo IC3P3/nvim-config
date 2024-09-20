@@ -166,6 +166,8 @@ return {
           },
         },
         nil_ls = {},
+        svelte = {},
+        tailwindcss = {},
       }
 
       -- Ensure the servers and tools above are installed
@@ -187,7 +189,7 @@ return {
         'js-debug-adapter',
         'nixpkgs-fmt',
       })
-      require('mason-tool-installer').setup { ensure_installed = ensure_installed }
+      require('m<script lang="ts">ason-tool-installer').setup { ensure_installed = ensure_installed }
 
       require('mason-lspconfig').setup {
         handlers = {
