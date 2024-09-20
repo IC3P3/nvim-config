@@ -183,12 +183,8 @@ return {
         'eslint_d',
         'prettier',
         'prettierd',
-<<<<<<< HEAD
         'nixpkgs-fmt',
         'markdownlint',
-=======
-        'js-debug-adapter',
->>>>>>> 2a5fdbb (Removed go debugger)
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 

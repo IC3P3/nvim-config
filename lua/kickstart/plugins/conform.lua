@@ -38,9 +38,10 @@ return {
         typescript = { 'prettierd', 'prettier', stop_after_first = true },
         html = { 'prettierd', 'prettier', stop_after_first = true },
         markdown = { 'prettierd', 'prettier', stop_after_first = true },
-        nix = { 'nixpkgs-fmt' },
+        nix = { 'nixpkgs-fmt', stop_after_first = true },
       },
     },
   },
 }
+
 -- vim: ts=2 sts=2 sw=2 et
