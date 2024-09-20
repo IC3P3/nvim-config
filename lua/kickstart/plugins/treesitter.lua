@@ -19,6 +19,7 @@ return {
         'vimdoc',
         'typescript',
         'javascript',
+        'nix',
       },
       -- Autoinstall languages that are not installed
       auto_install = true,
