@@ -198,6 +198,7 @@ return {
         'prettier',
         'prettierd',
         'js-debug-adapter',
+        'nixpkgs-fmt',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
