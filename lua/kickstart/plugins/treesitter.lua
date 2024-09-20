@@ -20,6 +20,8 @@ return {
         'typescript',
         'javascript',
         'nix',
+        'jsdoc',
+        'svelte',
       },
       -- Autoinstall languages that are not installed
       auto_install = true,
