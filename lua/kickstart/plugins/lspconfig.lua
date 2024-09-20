@@ -152,6 +152,7 @@ return {
             },
           },
         },
+        nil_ls = {},
       }
 
       -- Ensure the servers and tools above are installed
@@ -171,6 +172,7 @@ return {
         'prettier',
         'prettierd',
         'js-debug-adapter',
+        'nixpkgs-fmt',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
