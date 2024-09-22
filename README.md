@@ -211,6 +211,7 @@ sudo ln -sf /opt/nvim-linux64/bin/nvim /usr/local/bin/
 # Add the Terra repository to install Neovide
 sudo dnf install --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' --setopt='terra.gpgkey=https://repos.fyralabs.com/terra$releasever/key.asc' terra-release
 sudo dnf install -y gcc make git ripgrep fd-find unzip neovim nodejs neovide
+sudo npm install -g eslint
 ```
 
 </details>
