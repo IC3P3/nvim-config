@@ -184,6 +184,7 @@ return {
         'prettierd',
         'js-debug-adapter',
         'nixpkgs-fmt',
+        'markdownlint',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
