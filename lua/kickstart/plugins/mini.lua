@@ -16,6 +16,10 @@ return {
       -- - sd'   - [S]urround [D]elete [']quotes
       -- - sr)'  - [S]urround [R]eplace [)] [']
       require('mini.surround').setup()
+
+      -- Move any selection in any direction
+      -- works in visual and normal mode with M-h, M-j, M-k or M-l
+      require('mini.move').setup()
     end,
   },
 }
