@@ -33,6 +33,7 @@ External Requirements:
   - This config uses Lilex in Neovide by default
 - Language Setup:
   - Javascript and Typescript support needs `npm`
+- Neovim node-client (using npm)
 
 > **NOTE**
 > See [Install Recipes](#Install-Recipes) for additional Windows and Linux specific notes
@@ -156,7 +157,7 @@ the easiest way is to use choco:
 winget install --accept-source-agreements chocolatey.chocolatey
 ```
 
-2. install all requirements using choco, exit the previous cmd and
+2. install all requirements using choco, exit previous cmd and
    open a new one so that choco path is set, and run in cmd as **admin**:
 
 ```
