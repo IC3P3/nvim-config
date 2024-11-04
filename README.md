@@ -116,7 +116,6 @@ current plugin status. Hit `q` to close the window.
     The original repo with the single `init.lua` file is available here:
     - [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
   - Discussions on this topic can be found here: - [Restructure the configuration](https://github.com/nvim-lua/kickstart.nvim/issues/218) - [Reorganize init.lua into a multi-file setup](https://github.com/nvim-lua/kickstart.nvim/pull/473)
-    > > > > > > > dam9000-master
 
 ### Install Recipes
 
