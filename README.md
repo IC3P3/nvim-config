@@ -33,6 +33,7 @@ External Requirements:
   - This config uses Lilex in Neovide by default
 - Language Setup:
   - Javascript and Typescript support needs `npm`
+- Neovim node-client (using npm)
 
 > **NOTE**
 > See [Install Recipes](#Install-Recipes) for additional Windows and Linux specific notes
