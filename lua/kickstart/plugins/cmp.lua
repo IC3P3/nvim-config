@@ -37,6 +37,7 @@ return {
       'tailwind-tools',
       'onsails/lspkind-nvim',
       'hrsh7th/cmp-nvim-lsp-signature-help',
+      'luckasRanarison/tailwind-tools.nvim',
     },
     config = function(_, opts)
       -- See `:help cmp`
@@ -119,6 +120,15 @@ return {
           { name = 'path' },
         },
       }, opts))
+    end,
+    opts = function()
+      return {
+        formatting = {
+          format = require('lspkind').cmp_format {
+            before = require('tailwind-tools.cmp').lspkind_format,
+          },
+        },
+      }
     end,
     opts = function()
       return {
