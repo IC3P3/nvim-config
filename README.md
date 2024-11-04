@@ -104,7 +104,19 @@ current plugin status. Hit `q` to close the window.
     `~/.local/share/nvim-kickstart`. You can apply this approach to any Neovim
     distribution that you would like to try out.
 - What if I want to "uninstall" this configuration:
-  - See [lazy.nvim uninstall](https://github.com/folke/lazy.nvim#-uninstalling) information
+  - See [lazy.nvim uninstall](https://lazy.folke.io/usage#-uninstalling) information
+- Why is the kickstart `init.lua` a single file? Wouldn't it make sense to split it into multiple files?
+  - The main purpose of kickstart is to serve as a teaching tool and a reference
+    configuration that someone can easily use to `git clone` as a basis for their own.
+    As you progress in learning Neovim and Lua, you might consider splitting `init.lua`
+    into smaller parts. A fork of kickstart that does this while maintaining the
+    same functionality is available here:
+    - [kickstart-modular.nvim](https://github.com/dam9000/kickstart-modular.nvim)
+  - _NOTE: This is the fork that splits the configuration into smaller parts._
+    The original repo with the single `init.lua` file is available here:
+    - [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
+  - Discussions on this topic can be found here: - [Restructure the configuration](https://github.com/nvim-lua/kickstart.nvim/issues/218) - [Reorganize init.lua into a multi-file setup](https://github.com/nvim-lua/kickstart.nvim/pull/473)
+    > > > > > > > dam9000-master
 
 ### Install Recipes
 
