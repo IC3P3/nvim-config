@@ -115,9 +115,7 @@ the current plugin status. Hit `q` to close the window.
   - _NOTE: This is the fork that splits the configuration into smaller parts._
     The original repo with the single `init.lua` file is available here:
     - [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
-  - Discussions on this topic can be found here:
-    - [Restructure the configuration](https://github.com/nvim-lua/kickstart.nvim/issues/218)
-    - [Reorganize init.lua into a multi-file setup](https://github.com/nvim-lua/kickstart.nvim/pull/473)
+  - Discussions on this topic can be found here: - [Restructure the configuration](https://github.com/nvim-lua/kickstart.nvim/issues/218) - [Reorganize init.lua into a multi-file setup](https://github.com/nvim-lua/kickstart.nvim/pull/473)
 
 ### Install Recipes
 
