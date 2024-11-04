@@ -186,7 +186,6 @@ return {
         'eslint_d',
         'prettier',
         'prettierd',
-        'js-debug-adapter',
         'nixpkgs-fmt',
         'markdownlint',
       })
