@@ -22,5 +22,11 @@ return {
     keys = {
       { '<leader>-', ':Triptych<CR>' },
     },
+    options = {
+      line_numbers = {
+        enable = false,
+      },
+    },
   },
 }
+-- vim: ts=2 sts=2 sw=2 et
