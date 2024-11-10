@@ -34,16 +34,16 @@ return {
       --  into multiple repos for maintenance purposes.
       'hrsh7th/cmp-nvim-lsp',
       'hrsh7th/cmp-path',
-      'luckasRanarison/tailwind-tools.nvim',
+      'tailwind-tools',
       'onsails/lspkind-nvim',
     },
-    config = function()
+    config = function(_, opts)
       -- See `:help cmp`
       local cmp = require 'cmp'
       local luasnip = require 'luasnip'
       luasnip.config.setup {}
 
-      cmp.setup {
+      cmp.setup(vim.tbl_extend('error', {
         snippet = {
           expand = function(args)
             luasnip.lsp_expand(args.body)
@@ -113,7 +113,7 @@ return {
           { name = 'luasnip' },
           { name = 'path' },
         },
-      }
+      }, opts))
     end,
     opts = function()
       return {
