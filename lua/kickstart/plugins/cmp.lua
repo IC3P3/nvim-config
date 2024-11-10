@@ -130,15 +130,6 @@ return {
         },
       }
     end,
-    opts = function()
-      return {
-        formatting = {
-          format = require('lspkind').cmp_format {
-            before = require('tailwind-tools.cmp').lspkind_format,
-          },
-        },
-      }
-    end,
   },
 }
 -- vim: ts=2 sts=2 sw=2 et
