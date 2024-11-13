@@ -51,6 +51,9 @@ return {
           end,
         },
         completion = { completeopt = 'menu,menuone,noinsert' },
+        require('luasnip.loaders.from_vscode').lazy_load {
+          paths = { '~/.code/snippets' },
+        },
 
         -- For an understanding of why these mappings were
         -- chosen, you will need to read `:help ins-completion`
