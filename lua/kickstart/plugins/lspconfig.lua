@@ -185,6 +185,7 @@ return {
         'prettierd',
         'nixpkgs-fmt',
         'markdownlint',
+        'jq',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
