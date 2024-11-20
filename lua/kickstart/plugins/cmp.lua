@@ -52,7 +52,7 @@ return {
         },
         completion = { completeopt = 'menu,menuone,noinsert' },
         require('luasnip.loaders.from_vscode').lazy_load {
-          paths = { '~/.code/snippets' },
+          paths = { '$HOME/.snippets' },
         },
 
         -- For an understanding of why these mappings were
