@@ -29,6 +29,8 @@ return {
 
       -- Useful for getting pretty icons, but requires a Nerd Font.
       { 'nvim-tree/nvim-web-devicons', enabled = vim.g.have_nerd_font },
+
+      { 'cljoly/telescope-repo.nvim' },
     },
     config = function()
       -- Telescope is a fuzzy finder that comes with a lot of different things that
@@ -66,12 +68,24 @@ return {
           ['ui-select'] = {
             require('telescope.themes').get_dropdown(),
           },
+          repo = {
+            list = {
+              fd_opts = {
+                '--no-ignore-vcs',
+              },
+              search_dirs = {
+                '~/Desktop/Dev',
+                '~/.dotfiles',
+              },
+            },
+          },
         },
       }
 
       -- Enable Telescope extensions if they are installed
       pcall(require('telescope').load_extension, 'fzf')
       pcall(require('telescope').load_extension, 'ui-select')
+      pcall(require('telescope').load_extension, 'repo')
 
       -- See `:help telescope.builtin`
       local builtin = require 'telescope.builtin'
@@ -107,6 +121,7 @@ return {
           sort_mru = true,
         }
       end, { desc = '[ ] Find existing buffers' })
+      vim.keymap.set('n', '<leader>sp', require('telescope').extensions.repo.list, { desc = '[S]earch [P]roject' })
 
       -- Slightly advanced example of overriding default behavior and theme
       vim.keymap.set('n', '<leader>/', function()
