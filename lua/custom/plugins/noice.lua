@@ -7,5 +7,6 @@ return {
       'rcarriga/nvim-notify',
     },
     -- TODO: No configuration added, yet
+    opts = {},
   },
 }
