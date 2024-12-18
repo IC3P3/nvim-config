@@ -23,6 +23,7 @@ return {
         'jsdoc',
         'svelte',
         'css',
+        'rust',
       },
       -- Autoinstall languages that are not installed
       auto_install = true,

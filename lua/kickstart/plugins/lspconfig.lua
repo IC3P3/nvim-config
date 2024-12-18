@@ -168,6 +168,7 @@ return {
         nil_ls = {},
         svelte = {},
         tailwindcss = {},
+        rust_analyzer = {},
       }
 
       -- Ensure the servers and tools above are installed
