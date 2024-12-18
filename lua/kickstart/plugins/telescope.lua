@@ -100,6 +100,9 @@ return {
           '.git',
           'node_modules',
           '.svelte-kit',
+          '.keep',
+          '.git-keep',
+          '.gitkeep',
         }, ',') .. '}',
       }
 
