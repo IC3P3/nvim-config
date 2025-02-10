@@ -84,7 +84,7 @@ nvim
 ```
 
 That's it! Lazy will install all the plugins you have. Use `:Lazy` to view
-current plugin status. Hit `q` to close the window.
+the current plugin status. Hit `q` to close the window.
 
 ### FAQ
 
@@ -113,11 +113,9 @@ current plugin status. Hit `q` to close the window.
     same functionality is available here:
     - [kickstart-modular.nvim](https://github.com/dam9000/kickstart-modular.nvim)
   - _NOTE: This is the fork that splits the configuration into smaller parts._
-    The original repo with the single `init.lua` file is available here:
-    - [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
-  - Discussions on this topic can be found here:
-    - [Restructure the configuration](https://github.com/nvim-lua/kickstart.nvim/issues/218)
-    - [Reorganize init.lua into a multi-file setup](https://github.com/nvim-lua/kickstart.nvim/pull/473)
+    The original repo with the single `init.lua` file is available here: - [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
+  - # Discussions on this topic can be found here: - [Restructure the configuration](https://github.com/nvim-lua/kickstart.nvim/issues/218) - [Reorganize init.lua into a multi-file setup](https://github.com/nvim-lua/kickstart.nvim/pull/473)
+  - Discussions on this topic can be found here: - [Restructure the configuration](https://github.com/nvim-lua/kickstart.nvim/issues/218) - [Reorganize init.lua into a multi-file setup](https://github.com/nvim-lua/kickstart.nvim/pull/473)
 
 ### Install Recipes
 
